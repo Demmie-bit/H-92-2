@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script src="code.js"></script>
+    <title>Document</title>
+</head>
+<body >
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <center>
+        <h1 style="color: white;">The Math Quiz Game!</h1>
+
+        <h2>Number 1: </h2>
+        <input type="text" id="number_1" class="form-control"></input>
+        <br>
+        <h2>Number 2: </h2>
+        <input type="text" id="number_2" class="form-control"></input>
+        <br>
+        <button onclick="Send()">Send</button>
+
+        <div id="output">
+            <h3 id="Question"></h3>
+            <br>
+            <h4 id="h4">Answer: </h4>
+            <input type="text" id="Answer" class="form-control"></input>
+            <br>
+            <button onclick="check()" id="Check">Check</button>
+        </div>
+    </center>
+</body>
+</html>

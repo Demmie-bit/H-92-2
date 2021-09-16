@@ -1,0 +1,84 @@
+body
+{
+	background-image: url('wp1851883.jpg');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.login_div1 , .login_div2{
+		background: hsla(0, 0%, 81%, 0.342);
+		padding: 20px;
+		padding-bottom: 20px;
+		float: none;
+		border-radius: 25px;
+}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: #e5ffff;
+border-radius: 10px;
+border-top: 10px solid #dfdfdfc7;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+
+   
+  h2{
+	  color: rgba(255, 255, 255, 0.801);
+  }
+  h3{
+	color: white;
+}
+h4{
+	color: white;
+}
+h5{
+	color: white;
+}
+  label{
+	  color: white;
+  }
+
+  #output{
+	  background-color: rgba(255, 255, 255, 0.418);
+	  border-radius: 15px;
+	  border-top: 10px solid rgba(71, 71, 71, 0.548);
+	  padding: 10px;
+	  text-align: left;
+  }
+
+  #Check{
+	  border-radius: 20px;
+	  padding: 10px;
+	  color: rgba(0, 0, 0, 0.548);
+  }
+
+  button{
+	  margin: 10px;
+  }
+
+  #player1{
+	border-radius: 25px;
+	border: solid;
+  }
+  #player2{
+	border-radius: 25px;
+	border: solid;
+  }
+
