@@ -8,7 +8,7 @@
     <script src="code.js"></script>
     <title>Document</title>
 </head>
-<body >
+<body onload="set_names()">
     <h4 id="player1_name"></h4> <span id="player1_score"></span>
 	<br>
 	<h4 id="player2_name"></h4> <span id="player2_score"></span>
@@ -22,14 +22,13 @@
         <input type="text" id="number_2" class="form-control"></input>
         <br>
         <button onclick="Send()">Send</button>
+        <br>
+        <h2 id="player_question"></h2> 
+        <br>
+        <h2 id="player_answer"></h2>
 
         <div id="output">
-            <h3 id="Question"></h3>
-            <br>
-            <h4 id="h4">Answer: </h4>
-            <input type="text" id="Answer" class="form-control"></input>
-            <br>
-            <button onclick="check()" id="Check">Check</button>
+            
         </div>
     </center>
 </body>
